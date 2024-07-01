@@ -40,7 +40,7 @@ const Navbar = () => {
             {isMobileMenuOpen ? '✕' : '☰'}
           </button>
         </div>
-        <div className={`sm:hidden fixed top-0 left-0 w-full h-full bg-gray-800 text-center ${isMobileMenuOpen ? 'flex flex-col items-center justify-center' : 'hidden'}`}>
+        <div className={`sm:hidden fixed top-0 left-0 w-full h-full bg-[#272727] text-center ${isMobileMenuOpen ? 'flex flex-col items-center justify-center' : 'hidden'}`}>
           <button onClick={closeMobileMenu} className="text-xl absolute top-4 right-4 focus:outline-none">
             ✕
           </button>
