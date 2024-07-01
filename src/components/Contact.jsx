@@ -98,7 +98,7 @@ const Contact = () => {
 								value={form.name}
 								onChange={handleChange}
 								placeholder="Enter your name"
-								className='py-4 px-6 rounded-lg outline-none border-none font-medium bg-gray-900'
+								className='py-4 px-6 rounded-lg outline-none border-none font-medium bg-[#272727]'
 								required
 							/>
 						</label>
@@ -110,7 +110,7 @@ const Contact = () => {
 								value={form.email}
 								onChange={handleChange}
 								placeholder="Ex:abc@gmail.com"
-								className='py-4 px-6 rounded-lg  font-medium bg-gray-900'
+								className='py-4 px-6 rounded-lg  font-medium bg-[#272727]'
 								required
 							/>
 						</label>
@@ -122,14 +122,14 @@ const Contact = () => {
 								value={form.message}
 								onChange={handleChange}
 								placeholder='Do you have anything to say?'
-								className='py-4 px-6 rounded-lg outline-none border-none font-medium bg-gray-900'
+								className='py-4 px-6 rounded-lg outline-none border-none font-medium bg-[#272727]'
 								required
 							/>
 						</label>
 
 						<button
 							type='submit'
-							className='pt-3 px-8 rounded-xl outline-none w-fit font-bold shadow-md bg-gray-900'
+							className='pt-3 px-8 rounded-xl outline-none w-fit font-bold shadow-md bg-[#272727]'
 						>
 							{loading ? "Sending..." : "Send"}
 						</button>

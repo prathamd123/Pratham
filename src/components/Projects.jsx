@@ -8,7 +8,7 @@ import Footer from './Footer'
 
 const ProjectCard = ({ image, title, description, git, technologies }) => {
     return (
-        <div className="max-w-sm sm:max-w-sm md:max-w-sm bg-gray-800 border border-neutral-100 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+        <div className="max-w-sm sm:max-w-sm md:max-w-sm bg-[#272727] border border-neutral-100 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             {title=='Weather -App' && <a href="#">
                 <img className="w-full rounded-t-lg h-auto object-cover " src={wapp} alt="" />
             </a>}

@@ -19,7 +19,7 @@ const Navbar = () => {
   }, [pathname]);
 
   return (
-    <nav className="bg-purple-600 p-4 text-white fixed w-full z-10 top-0" style={{ cursor: 'default' }}>
+    <nav className="bg-[#272727] p-4 text-white fixed w-full z-10 top-0" style={{ cursor: 'default' }}>
       <div className="mx-auto text-center flex w-5/6 justify-between">
         
         <div className="hidden sm:flex space-x-4 items-center text-sm">

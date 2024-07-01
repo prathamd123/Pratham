@@ -16,7 +16,7 @@ const Experience = () => {
         {experiences.map((experience) => (
           <VerticalTimelineElement
             className="relative vertical-timeline-element--work"
-            contentStyle={{ background: "#1d1836", color: "#fff", }}
+            contentStyle={{ background: "#272727", color: "#fff", }}
             contentArrowStyle={{ borderRight: "7px solid  #232631" }}
             date={experience.duration}
             iconStyle={{ background: '#fff' }}
