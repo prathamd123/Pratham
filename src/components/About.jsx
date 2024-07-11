@@ -37,7 +37,7 @@ const About = () => {
           Beyond coding, I love photography📸, capturing moments and telling stories. I also enjoy planting🌱, nurturing nature, and watching it grow. Additionally, I'm passionate about UX/UI design🎨, creating intuitive and engaging user experiences.</p>
 
           <ButtonLink
-            url='https://drive.google.com/file/d/166ltgbxVlH1y7qAiAsAIk8WenCpR2_4a/view'
+            url='https://drive.google.com/file/d/1PbWaf-JmNX4T8swIllYTMLcKNW_YfYw4/view'
             text='View Resume →'
             padding={`p-3`}
           />
