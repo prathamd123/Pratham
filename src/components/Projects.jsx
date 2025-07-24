@@ -1,8 +1,7 @@
 
 import React from "react";
-import vpn from '../assets/vpn.png'
 import wapp from '../assets/wapp.png'
-import copeople from '../assets/copeople.png'
+import algoViz from '../assets/algoViz.png'
 import ET from '../assets/ET.png'
 import Footer from './Footer'
 
@@ -62,11 +61,11 @@ const Projects = () => {
 
 export const project = [
     {
-        title:'Weather -App',
-        description:'Developed a weather application that allows users to find the weather of any city in the world and Applied advanced JavaScript topics, including asynchronous programming, to handle API requests and responses efficiently',
-        image: {wapp},
-        git:'https://github.com/prathamd123/Weather-app',
-        technologies:['fetchAPI' , 'NodeJS']
+        title: 'Algo Viz Application',
+        description: 'Built a visual learning tool for Data Structures and Algorithms using the MERN stack. Implemented visualizations for B+ Tree, Binary Search Tree (BST), and B Tree to aid students in understanding complex concepts through interactive animations.',
+        image: { algoViz }, // Replace AV with the actual import or image variable
+        git: 'https://github.com/prathamd123/AlgoViz', // Replace with your actual GitHub repo link
+        technologies: ['React', 'Node.js', 'Express.js', 'MongoDB', 'D3.js']
     },
     {
         title:'Expense-Trackar',

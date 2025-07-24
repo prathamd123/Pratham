@@ -18,10 +18,23 @@ export const name = 'Pratham';
 
 export const experiences = [
     {
+        'company': 'Maitri Global Education',
+        'role': 'Full Stack Developer Intern',
+        'duration': 'July 2025 - present',
+        'logo': 'https://maitriglobalitaly.com/logomtg.png',
+        'points': [
+             'Developing and enhancing the main website’s CRM and CMS interfaces using modern frontend technologies.',
+    'Integrated dynamic content management from Sanity CMS for blog, courses, and scholarship sections.🧩',
+    'Collaborating with the design and backend teams to ensure seamless UI/UX and data flow.',
+    'Managing GitHub repositories and deploying updates regularly on Render.🚀'
+        ],
+        'url': 'https://maitriglobaleducation.com/',
+    },
+    {
         'company': 'Unified Mentor',
         'role': 'Full Stack Developer Intern',
-        'duration': 'June 2024 - Present',
-        'logo': 'https://www.unifiedmentor.com/img/logo-blue.png',
+        'duration': 'June 2024 - Aug 2024',
+        'logo': 'https://www.unifiedmentor.com/assets/Colored%20Logo-DMx5DaFN.png',
         'points': [
             'Designed and implemented a full-featured expense tracker application.',
             'Built a professional portfolio website to showcase projects and skills.',
@@ -47,6 +60,6 @@ export const experiences = [
 
 
 
-export const EMAIL_JS_SERVICE_ID = 'service_90wb9t5';
-export const EMAIL_JS_TEMPLATE_ID = 'template_8l87rew';
-export const EMAIL_JS_PUBLIC_KEY = 'pHPjc9RGGkF66r86N';
+export const EMAIL_JS_SERVICE_ID = 'service_qupze8e';
+export const EMAIL_JS_TEMPLATE_ID = 'template_ugchw95';
+export const EMAIL_JS_PUBLIC_KEY = 'i4X2lFm1uoLVosOBxMEUM';
