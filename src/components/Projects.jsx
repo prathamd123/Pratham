@@ -14,6 +14,9 @@ const ProjectCard = ({ image, title, description, git, technologies }) => {
             {title=='Expense-Trackar' && <a href="#">
                 <img className="w-full rounded-t-lg h-auto object-cover " src={ET} alt="121" />
             </a>}
+            {title=='Algo Viz Application' && <a href="#">
+                <img className="w-full rounded-t-lg h-auto object-cover " src={algoViz} alt="algoviz" />
+            </a>}
             <div className="p-4 sm:p-6">
                 <a href="#">
                     <h5 className="text-2xl sm:text-xl md:text-2xl lg:text-3xl font-bold tracking-tight text-white bg-clip-text text-transparent bg-gradient-to-r from-yellow-200 to-pink-500">{title}</h5>
@@ -63,14 +66,14 @@ export const project = [
     {
         title: 'Algo Viz Application',
         description: 'Built a visual learning tool for Data Structures and Algorithms using the MERN stack. Implemented visualizations for B+ Tree, Binary Search Tree (BST), and B Tree to aid students in understanding complex concepts through interactive animations.',
-        image: { algoViz }, // Replace AV with the actual import or image variable
-        git: 'https://github.com/prathamd123/AlgoViz', // Replace with your actual GitHub repo link
+        image: algoViz,
+        git: 'https://github.com/prathamd123/AlgoViz',
         technologies: ['React', 'Node.js', 'Express.js', 'MongoDB', 'D3.js']
     },
     {
         title:'Expense-Trackar',
         description:'Developed an expense tracker application to help users manage and track their daily expenses. Implemented features to add, edit, and delete expenses, providing a comprehensive tool for financial management. Enabled users to categorize expenses and view a detailed list of all transactions.',
-        image: {ET},
+        image: ET,
         git:"https://github.com/prathamd123/expense-tackar",
         technologies:[ 'DOM', 'AdvanceJS']
     }

@@ -46,7 +46,7 @@ const Contact = () => {
 				EMAIL_JS_TEMPLATE_ID,
 				{
 					from_name: username,
-					to_name: "Nithin Manda",
+					to_name: "Pratham Devatwal",
 					reply_to: user_email,
 					to_email: "prathamdevatwal0@gmail.com",
 					message: user_message,

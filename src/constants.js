@@ -60,6 +60,6 @@ export const experiences = [
 
 
 
-export const EMAIL_JS_SERVICE_ID = 'service_qupze8e';
-export const EMAIL_JS_TEMPLATE_ID = 'template_ugchw95';
-export const EMAIL_JS_PUBLIC_KEY = 'i4X2lFm1uoLVosOBxMEUM';
+export const EMAIL_JS_SERVICE_ID = 'service_2kge7em';
+export const EMAIL_JS_TEMPLATE_ID = 'template_i0q0s67';
+export const EMAIL_JS_PUBLIC_KEY = 'CF0SgNI3-3p49m4yA';
